@@ -1,0 +1,63 @@
+{% extends "dashboard.html" %}
+
+{% block title %}Home | My Dashboard{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col">
+            <div class="card bg-primary">
+                <div class="card-header">Total Issues</div>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-warning">
+                <div class="card-header">Pending Issues</div>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-success">
+                <div class="card-header">Resolved Issues</div>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-container">
+        <h2 class="mt-4">Issue Reports</h2>
+        <button id="refreshButton" class="btn-refresh">
+            <i class="fas fa-sync-alt"></i> <!-- This is the Font Awesome refresh icon -->
+        </button>        
+    </div>    
+    <div class="table-container">
+        <input type="text" id="filterInput" placeholder="Filter by description..." class="filter-input mb-3">
+        <table class="custom-table" id="issuesTable">
+            <thead>
+                <tr>
+                    <th>Time [CET]</th>
+                    <th>User ID</th>
+                    <th>Issue Type</th>
+                    <th>Description</th>
+                    <th>Reproduce Steps</th>
+                    <th>Error Log</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Issues will be dynamically populated here -->
+            </tbody>
+        </table> 
+    </div>
+    <nav aria-label="Page navigation" class="pagination-container">
+        <ul class="pagination" id="paginationControls">
+            <!-- Pagination controls will be dynamically populated here -->
+        </ul>
+    </nav>
+{% endblock %}

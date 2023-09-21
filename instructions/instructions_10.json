@@ -1,0 +1,26 @@
+{
+    "name": "Python generic",
+    "content": [
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "_Python generic_"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Here are the instructions for Python generic issue..."
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "<https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:dali_isolation|More Details>"
+            }
+        }
+    ]
+}

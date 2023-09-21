@@ -1,0 +1,26 @@
+{
+    "name": "Accounts/Credentials",
+    "content": [
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "_Accounts/Credentials_"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Here are the instructions for Accounts/Credentials issue..."
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "<https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:dali_isolation|More Details>"
+            }
+        }
+    ]
+}

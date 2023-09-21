@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J . A . R . V . I . S Dashboard</title>
+    <link href="/static/css/dashboard.css" rel="stylesheet">
+    <link rel="preload" href="/static/fonts/biko/Biko_Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        
+        <a class="navbar-brand" href="#">
+            <img src="/static/images/Color_logo_no_background.svg" alt="Logo" class="logo-light">
+            <img src="/static/images/Color_logo_no_background_white.svg" alt="Logo Dark" class="logo-dark">
+            <span class="brand-text">J.A.R.V.I.S Dashboard</span>
+        </a>
+        
+
+        <ul class="navbar-nav">
+            <li><a href="/dashboard" class="active">Home</a></li>
+            <li><a href="/analytics">Analytics</a></li>
+            <li><a href="/settings">Settings</a></li>
+        </ul>
+
+        <div class="theme-switcher">
+            <input type="checkbox" id="themeSwitcher" class="theme-switcher-checkbox">
+            <label for="themeSwitcher" class="theme-switcher-label">
+                <i class="fas fa-sun sun-icon"></i>
+                <i class="fas fa-moon moon-icon"></i>
+                <div class="ball"></div>
+            </label>            
+        </div>        
+
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

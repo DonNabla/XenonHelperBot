@@ -1,0 +1,26 @@
+{
+    "name": "Midway2/3",
+    "content": [
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "_Midway2/3_"
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "Here are the instructions for Midway2/3 issue..."
+            }
+        },
+        {
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": "<https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenon1t:analysistools:dali_isolation|More Details>"
+            }
+        }
+    ]
+}
